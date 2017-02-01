@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productlist>
+  <products>
+    <product>
+      <id>1</id>
+      <type>Soup</type>
+      <price>0.65</price>
+      <unitquantity>tin</unitquantity>
+    </product>
+    <product>
+      <id>2</id>
+      <type>Bread</type>
+      <price>0.80</price>
+      <unitquantity>loaf</unitquantity>
+    </product>
+    <product>
+      <id>3</id>
+      <type>Milk</type>
+      <price>1.30</price>
+      <unitquantity>bottle</unitquantity>
+    </product>
+    <product>
+      <id>4</id>
+      <type>Apples</type>
+      <price>1.00</price>
+      <unitquantity>bag</unitquantity>
+    </product> 
+  </products>
+</productlist>

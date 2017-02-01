@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingBasket", "PricingBasket\PricingBasket.csproj", "{C32AB337-0D3B-47F9-A596-D6EDDAA8CD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingBasket.Test", "PricingBasket.Test\PricingBasket.Test.csproj", "{DDF5D216-C406-4AF0-84E1-CF13E5E934D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C32AB337-0D3B-47F9-A596-D6EDDAA8CD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32AB337-0D3B-47F9-A596-D6EDDAA8CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32AB337-0D3B-47F9-A596-D6EDDAA8CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32AB337-0D3B-47F9-A596-D6EDDAA8CD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF5D216-C406-4AF0-84E1-CF13E5E934D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF5D216-C406-4AF0-84E1-CF13E5E934D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF5D216-C406-4AF0-84E1-CF13E5E934D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF5D216-C406-4AF0-84E1-CF13E5E934D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

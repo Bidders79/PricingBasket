@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productdiscounts>
+  <productdiscount>
+    <productid>
+      <productid>1</productid>
+      <quantitytoqualify>2</quantitytoqualify>
+      <discountedproductid>2    
+        <percntagediscount>50</percntagediscount>
+      </discountedproductid>
+    </productid>   
+  </productdiscount>  
+</productdiscounts>
