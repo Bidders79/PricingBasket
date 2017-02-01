@@ -10,12 +10,12 @@ namespace PricingBasket
     [Serializable()]
     public class PriceDiscount
     {
-        [System.Xml.Serialization.XmlElement("productid")]
-        public int ProductID { get; set; }
+        [System.Xml.Serialization.XmlElement("productname")]
+        public string ProductName { get; set; }
         [System.Xml.Serialization.XmlElement("quantitytoqualify")]
-        public int QuantityToQualify { get; set; }
+        public string QuantityToQualify { get; set; }
         [System.Xml.Serialization.XmlElement("percntagediscount")]
-        public int PercntageDiscount { get; set; }
+        public string PercntageDiscount { get; set; }
     }
 
     [Serializable()]

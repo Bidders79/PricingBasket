@@ -2,9 +2,9 @@
 <pricediscountlist>
   <pricediscounts>
     <pricediscount>
-        <productid>4</productid>
-        <quantitytoqualify>1</quantitytoqualify>
-        <percntagediscount>10</percntagediscount>
+      <productname>Apples</productname>
+      <quantitytoqualify>1</quantitytoqualify>
+      <percntagediscount>0.10</percntagediscount>
     </pricediscount>
   </pricediscounts>
 </pricediscountlist>

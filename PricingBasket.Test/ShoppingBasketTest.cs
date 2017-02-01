@@ -24,6 +24,15 @@ namespace PricingBasket.Test
         }
 
         [TestMethod]
+        public void CalculatePriceDiscountsTest()
+        {
+            string[] shoppingitems = new string[] { "milk", "apples" };
+            shoppingBasket.InputItems(shoppingitems);
+            shoppingBasket.CalculatePriceDiscounts();
+            Assert.AreEqual(shoppingBasket._TotalDiscounts, 0.10m);
+
+        }
+        [TestMethod]
         public void CalculateSubTotalTest()
         {
             string[] shoppingitems = new string[] { "milk", "apples" };
@@ -31,6 +40,15 @@ namespace PricingBasket.Test
             shoppingBasket.CalculateSubTotal();
             Assert.AreEqual(shoppingBasket._SubTotal, 2.30m);
 
+        }
+
+        [TestMethod]
+        public void CalculateTotalwithDiscountsTest()
+        {
+            string[] shoppingitems = new string[] { "milk", "apples" };
+            shoppingBasket.InputItems(shoppingitems);
+            shoppingBasket.ProcessList();
+            Assert.AreEqual(shoppingBasket._TotalPrice, 2.20m);
         }
 
     }

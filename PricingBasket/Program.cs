@@ -15,10 +15,9 @@ namespace PricingBasket
             {
                 ShoppingBasket myShoppingBasket = new ShoppingBasket();
 
-                if (!myShoppingBasket.InputItems(args));
+                myShoppingBasket.InputItems(args);
                 myShoppingBasket.ProcessList();
-                
-                myShoppingBasket.OutputMessage();
+                //myShoppingBasket.OutputMessage();
             }
             catch(Exception ex)
             {

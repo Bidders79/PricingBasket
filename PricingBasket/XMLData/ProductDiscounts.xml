@@ -5,7 +5,7 @@
       <productid>1</productid>
       <quantitytoqualify>2</quantitytoqualify>
       <discountedproductid>2    
-        <percntagediscount>50</percntagediscount>
+        <percntagediscount>0.50</percntagediscount>
       </discountedproductid>
     </productid>   
   </productdiscount>  

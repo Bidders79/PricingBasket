@@ -18,12 +18,13 @@ namespace PricingBasket.Classes
         {
             Console.WriteLine(errorMsg + " - " + ex.Message);
         }
-        public void LogError(string errorMsg, List<string> InvalidItems)
+
+        public void LogError(string errorMsg, Dictionary<string, string> InvalidItems)
         {
             Console.WriteLine(errorMsg);
-            foreach (string iv in InvalidItems)
+            foreach (KeyValuePair<string, string> item in InvalidItems)
             {
-                Console.WriteLine(iv);
+                Console.WriteLine(item.Value);
             }
         }
     }
